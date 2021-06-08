@@ -1,0 +1,40 @@
+html, body {
+	background: url('SpoPR1.jpg') no-repeat 50% 50%;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+	float:left;
+	
+   
+}
+
+h2,h3 {
+    color: #AEB6BF;
+    font-family: Courier New;
+    text-align: center;
+}
+
+#present{
+	
+}
+
+#team {
+
+    width: 30%;
+    height: 100%;
+    float: right;
+	background: rgba(128,0,0,0.7);
+}
+
+img {
+  display: block;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+

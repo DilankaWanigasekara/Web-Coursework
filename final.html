@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Page Title</title>
+
+
+
+
+
+	<link rel="stylesheet" type="text/css" href="new.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript" src="https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=2Tx8qjSMLpNipt55Sx7HgMa70CvSoz-Ou_9Mp04wvMi5j8e4ubERVJKVXLT8VxeXkFYCadkZBmhSmD_BEwrWvE9ORYAZB1VuSMoAJ0kcJjrmTUUw0GdgwfaZhtEOisU5WqUunzaJ2vQe1zk78rqv2jqZk4oEP-AyaFIiPycKZNtWozpWqPaAkvpbLfDwaZPUXbPBk7rzX__6vZUYX53TeydSbFLstcDqch4JrqjKGA4LRdreQZq5PjPXbOSWKtJO6tgeBgB5QWRAeLLjXZCgqHIEAasQFZ2Wi4gxtQXa-lMiKt8xAkAxmkFTlEA6taPoxCi8ZaPVLBLvrSedxgoc2LtM4Q3eteC__9CtQMTubIfZF_NXjoZHKdr6s9gWm0Z1ZmyZunlNtYiUZUGsfPnS4mhHYCZfog7OmalsKXlmiiBb10TFjLeIEj2qDllCHFCjIN4zdeaF4f_dn3FLFI657PQ1HyckzLhV4HDWSDukfL_EJNXwKvLmX6aKF9t5_xkAdDVO0vkrCU2Bm1G6L5Y_5eOxmIqzeIGcRyUVoiWWY6xOKTCmeM-Z8O9D1a0t7ra9JzcfhQlV-72Qe9nLgeW4sDmT_ZVZNXlOFukmxBw6Vd1kUUTH9a0s4Sc8MAPOFPhsi3Y9hFDgdtsBiTSsQKi89KBnE4N8qwzIoSWu5wMnL-92fgV8sZYNEtivzg0K1_IHir9nS-DybTjfr_AVmzvZjW99aCv9jubn36PRCMlCKfmaf9vckz_oZC_tg5zNFv4Yd4fY8SViD5ervKCMT0uZypBgsw5SRYIVSCRn0EOEA3W8Lfy6yi4KTaFaRRiCN9X-NNYgHPaJa_KaO9ivImZtd92ocMDEwCM5CPxEUanS1jU040c-MUJJ38jCkiXWz0Q11Z8hy0d1q47Q5QBn2_8KdbG51FP6rWEQzW4D-vP9Ny01n5FhUUu7RUpp4KcJB9yJyeQpurWyZy2DQFBfGzwHTvG1BvN1QF2nz8vW-Jgu--nhqAFYvNYrnEf5YU5NZErXMHgqKFVpab_PN75MXx2agGKXKPCfGT59vsIpxWNcTSS23gCsIR22m8NY3e6T50PXFhZNhgcPuQQfHO6m6AqbDaxD8ZIJH1sOOMcU9Y3EZxxKCYRttDKnUoNB3nZWYWDwlINeO9DyXGr4U6c4SmCOSPQ7hR7sNq9atqwa38lkDtiHKKd2dj5uYZceEXBmtXUJY4RkfrKyNjtYwlu-uJZtCA" nonce="588e007226b35571a82439b3d51a750d" charset="UTF-8"></script><script>
+var fontSize = 1;
+function zoomIn() {
+	fontSize += 0.1;
+	document.body.style.fontSize = fontSize + "em";
+}
+function zoomOut() {
+	fontSize -= 0.1;
+	document.body.style.fontSize = fontSize + "em";
+}
+function amount(){
+//   var amt1 = document.getElementById('number1').value;
+//   var tot1 = amt1 * 14.33;
+
+//   var amt2 = document.getElementById('number2').value;
+//   var tot2 = amt2 * 26;
+
+//   var amt3 = document.getElementById('number3').value;
+//   var tot3 = amt3 * 12.36;
+
+  var tot = 50;
+  console.log(tot);
+  document.getElementById('demo').innerHTML = tot;
+}
+</script>
+<script type="text/javascript">
+		function submitComment() {
+			var name = document.getElementById("name").value;
+			var email = document.getElementById("email").value;
+			var comment = document.getElementById("comment").value;
+			try{
+				var rate = document.querySelector('input[name="rate"]:checked').value;
+			}catch(err){
+				var rate = null;
+			}
+		
+
+			if (!rate || !name){
+				if (!rate && !name){
+					alert("Name and Rating Should not be empty!");
+				}else if (!name){
+					alert("Name Should not be empty!");
+				}else if (!rate){
+					alert("Rating Should not be empty!");
+				}
+			}else{
+				alert("Hi "+name + ", Thank you very much for your feedback" + "\nYou have rated our site: "+ rate + "\nYour email: " + email +"\nYour Comment: " + comment  );
+			}	
+		}
+	</script>
+	
+</head>
+<body>
+	
+	<header>
+	
+	<div id="main">
+
+	
+	<nav>
+	
+	<img src="trans.png" width="240" height="96">
+		<ul>
+			<li class="active"><a href="final.html">Home</a></li>
+			<li><a href="tmuProducts.html">Products</a></li>
+			<li><a href="Quiz.html">Quiz</a></li>
+			<div class="dropdown">
+				<li a href ="#" class="dropbtn">More</li>
+					<div class="dropdown-content">
+						<a href="football.html">Football</a>
+						<a href="student1.html">Basketball</a>
+						<a href="swimming.html">Swimming</a>
+						
+					</div>
+			</div>
+
+			<li><a href="Authorslast.html">Developers</a></li>
+		</ul>
+	</nav>
+		<div id="zoom">
+			<input type="button"class="zoo" value="+" onClick="zoomIn()" name="+"/>
+			<input type="button"class="zoo" value="-" onClick="zoomOut()" name="-"/>
+			<button onclick="amount()"></button>
+			<div id="demo"></div>
+		</div>	
+	<div id="title">			
+	<h1>Team  Me  Up</h1>
+	</div>
+	<div id="button">
+	<a href="#gallery" class="btn" >Gallery</a>
+	<a href="#Explore"class="btn">Explore</a>
+	<a href="#Feedback"class="btn">Feedback</a>	
+	
+	</div>
+	</div>
+
+	
+	
+	</header>
+
+	<div id="picture">
+		
+	<div id="about">
+      <div id="Explore"><h2>About us.../<h2></div>
+        <br/>
+	</div>
+		
+       
+        <p>
+        Sports play a vital role in modern contemporary society. It is an integral part of life essential for the physical and mental well-being of individuals  <br/><br/></br>
+We TMU.com, dedicate our selves towards giving you the top stories and purchase options related 
+to what you love of the Beautiful game. So stay tuned to get latest stories and chance to buy some awesome gears 
+related to things of your interest.
+      </p>
+	  
+    </div>
+	<div id="nic">
+	</div>
+	<div id="gallery" class="gall">Gallery</div>
+	<div id="container"  >
+		<div class="box">
+		
+			<div class="imbox">
+				<img src="yoga.jpg">
+			</div>
+			<div class="para">
+				<div class="conta">
+				
+					<h2>Yoga</h2>
+					<p>Yoga is essentially a spiritual discipline based on an extremely subtle science</p>
+				</div>
+			</div>
+		</div>
+		<div class="box">
+			<div class="imbox">
+			<img src="aa.jpg">
+			</div><div class="para">
+				<div class="conta">
+					<h2>TMU sports equipments</h2>
+					<p>the best place to get high quality equipments for reasonabal price </p>
+				</div>
+			</div></div>
+		<div class="box"><div class="imbox">
+			<img src="bolt.png">
+			</div><div class="para">
+				<div class="conta">
+					<h2>Hussain Boalt</h2>
+					<p>The speadest man in the world who fonds of getting TMU products
+					</p>
+				</div>
+			</div></div>
+		<div class="box"><div class="imbox">
+			<img src="win.jpg">
+			</div><div class="para">
+				<div class="conta">
+					<h2>Champions</h2>
+					<p>Becoming champions is not an impossible thing when you are with TMU products </p>
+				</div>
+			</div></div>
+		<div class="box"><div class="imbox">
+			<img src="girl.jpg">
+			</div><div class="para">
+				<div class="conta">
+					<h2>football</h2>
+					<p>TMU us provide world best football equipments for you as your choice</p>
+				</div>
+			</div></div>
+		<div class="box"><div class="imbox">
+			<img src="ww.jpg">
+			</div><div class="para">
+				<div class="conta">
+					<h2>Team</h2>
+					<p>Team work will carry you up to the heighst</p>
+				</div>
+			</div></div>
+		<div class="box"><div class="imbox">
+			<img src="basket.jpg">
+			</div><div class="para">
+				<div class="conta">
+					<h2>Branded Shoes</h2>
+					<p>TMU provides cutomer a range of branded items with high quality meterials</p>
+				</div>
+			</div></div>
+		<div class="box"><div class="imbox">
+			<img src="c.jpg">
+			</div><div class="para">
+				<div class="conta">
+					<h2>Entertainment</h2>
+					<p>Sports is the best way to entertain the life  </p>
+				</div>
+			</div></div>
+	</div>
+	
+
+
+	
+	 
+	<div id="ru">
+
+	<div id="Feedback"><a href="#open-modal">Give your feedback</a></div>
+	</div>
+<div id="open-modal" class="modal-window">
+  <div>
+    <a href="#modal-close" title="Close" class="modal-close">close &times;</a>
+    <h1>Contact details</h1>
+    <div>
+    	<form>
+			Name:<br/> <input type="text" id="name" placeholder="John">
+			<br/><br/>
+			Email:<br/><input type="email" id="email" placeholder="example@example.com">
+			<br/><br/>
+			Comment:<br/><input type="textarea" id="comment" placeholder="Any comments?">
+			<br/><br/>
+			<table>
+				<tr>
+					<td>Rating:</td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="radio" name="rate" value="Poor"></td>
+					<td>Poor</td>
+					
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="radio" name="rate" value="Good"></td>
+					<td>Good</td>
+					
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="radio" name="rate" value="Excellent"></td>
+					<td>Excellent</td>
+					
+				</tr>
+			</table>
+			<br/>
+			<input type="submit" name="submit" onclick="submitComment()" value="SUBMIT">
+			<input type="reset" name="reset">
+		</form>
+	</div>
+  </div>
+</div>
+
+
+
+
+
+<footer> 
+<div class="footer">
+	<div class="inner_footer">
+		<div class="logo_container">
+			<img src ="trans.png">
+		</div>
+		<div class="footer_third">
+			<h1>Need help?</h1>
+			<a href="#">Terms and conditions</a>
+			<a href="#">privacy policy</a>
+		
+			
+		</div>
+		<div class="footer_third">
+			<h1>more</h1>
+			<a href="#Explore">explore</a>
+			<a href="Authorslast.html">Dilanka Wanigasekara</a>
+			<a href="Authorslast.html">Wehan Himsara Withana</a>
+			<a href="Authorslast.html">Ayesh Perera</a>
+			
+		</div>
+		<div class="footer_third">
+			<h1>Follow us</h1>
+			<li a href="#"><i class="fa fa-facebook"></i></a></li>
+			<li a href="#"><i class="fa fa-twitter"></i></a></li>
+			<li a href="#"><i class="fa fa-instagram"></i></a></li>
+			<li a href="#"><i class="fa fa-google"></i></a></li>
+			<li a href="#"><i class="fa fa-snapchat-ghost"></i></a></li>
+			<li a href="#"><i class="fa fa-yahoo"></i></a></li>
+			
+			<span>
+			TMU products<br><br>
+			The best place to get your sports items,<br>
+			Ramacrishna Road Colombo6,<br>
+			Baseline road, colombo4<br>
+			Amer Street,colobo3<br> 
+			Sri Lanka<br>
+			</span>
+			
+			
+			
+		</div>
+	
+	</div>	
+</div>
+</footer>	
+	
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stylePro.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="product.js" async></script>
+    </head>
+	
+    <body bgcolor = "#8c8c8c">
+	<header>
+	
+	<div id="main">
+	<nav>
+	<img src="trans.jpeg" width="240" height="96">
+		<ul>
+			<li class="active"><a href="final.html">Home</a></li>
+			<li><a href="tmuProducts.html">Products</a></li>
+			<li><a href="Quiz.html">Quiz</a></li>
+			<div class="dropdown">
+				<li a href ="#" class="dropbtn">More</li>
+					<div class="dropdown-content">
+						<a href="football.html">Football</a>
+						<a href="student1.html">Basketball</a>
+						<a href="swimming.html">Swimming</a>
+					</div>
+			</div>
+
+			<li><a href="Authorslast.html">Developers</a></li>
+		</ul>
+		
+	</nav>
+	<div>	
+    </header>
+        
+        <section class="contain1 content-section">
+            <div class="sale-itms">
+                <div class="sale-item">
+                    <span class="sale-item-title">TMU<br>Cricket Bat</span>
+                    <img class="sale-item-image" src="TMUbat.jpeg">
+                    <div class="sale-item-info">
+						TYPE:<select>
+								<option value="HARROW">HARROW</option>
+								<option value="WOMEN'S">WOMEN'S</option>
+								<option value="ACADEMY">ACADEMY</option>
+								<option value="FULL">FULL</option>
+							</select>
+                        <span class="sale-item-price">$129.50</span>
+                        <button class="btun btun-primary sale-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="sale-item">
+                    <span class="sale-item-title">TMU Sports<br>T-Shirt<br></span>
+                    <img class="sale-item-image" src="TMUshirt.jpeg">
+                    <div class="sale-item-info">
+						Size:<select>
+								<option value="S">S</option>
+								<option value="M">M</option>
+								<option value="L">L</option>
+								<option value="XL">XL</option>
+								<option value="XXL">XXL</option>
+							</select>	
+                        <span class="sale-item-price">$47.99</span>
+                        <button class="btun btun-primary sale-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                
+                </div>
+                
+            </div>
+            <div class="sale-itms">
+                <div class="sale-item">
+                    <span class="sale-item-title">TMU Football</span>
+                    <img class="sale-item-image" src="TMUFball.jpg">
+                    <div class="sale-item-info">
+                        <span class="sale-item-price">$75.00</span>
+                        <button class="btun btun-primary sale-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="sale-item">
+                    <span class="sale-item-title">TMU Basketball</span>
+                    <img class="sale-item-image" src="TMUBball.jpg">
+                    <div class="sale-item-info">
+                        <span class="sale-item-price">$69.99</span>
+                        <button class="btun btun-primary sale-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contain1 content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-getter">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+				<span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-itms">
+            </div>
+            <div class="cart-sum">
+                <strong class="cart-sum-title">TOTAL</strong>
+                <span class="cart-sum-price">$0</span>
+            </div>
+
+        <h3>Please fill your Informations</h3>
+    <div>
+    <form name="saveForm" onsubmit="return validateForm()" method="post">
+  
+    <label for="fstname">First Name</label>
+    <input type="text" id="fstname" name="firstname" placeholder="Your First name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your Last name..">
+
+    <label for="cnumber">Credit/Debit cart number</label>
+    <input type="number" id="cnumber" name="cnumber" placeholder="Your card number.. ">
+
+    
+
+            <button class="btun btun-primary btun-purchase" type="submit" value="submit">PURCHASE</button>
+	<footer>
+		<div class="footer">
+	<div class="inner_footer">
+		<div class="logo_container">
+			<img src ="trans.jpeg">
+		</div>
+		<div class="footer_third">
+			<h1>Need help?</h1>
+			<a href="#">Terms and conditions</a>
+			<a href="#">Privacy policy</a>
+		
+			
+		</div>
+		<div class="footer_third">
+			<h1>More</h1>
+			<a href="Authorslast.html">Explore</a>
+			<a href="Authorslast.html">Dilanka Wanigasekara</a>
+			<a href="Authorslast.html">Wehan Himsara Withana</a>
+			<a href="Authorslast.html">Ayesh Perera</a>
+			
+		</div>
+		<div class="footer_third">
+			<h1>Follow us</h1>
+			<li a href="#"><i class="fa fa-facebook"></i></a></li>
+			<li a href="#"><i class="fa fa-twitter"></i></a></li>
+			<li a href="#"><i class="fa fa-instagram"></i></a></li>
+			<li a href="#"><i class="fa fa-google"></i></a></li>
+			<li a href="#"><i class="fa fa-snapchat-ghost"></i></a></li>
+			<li a href="#"><i class="fa fa-yahoo"></i></a></li>
+			
+			<span>
+			TMU products<br><br>
+			The best place to get your sports items,<br>
+			Ramacrishna Road Colombo6,<br>
+			Baseline road, colombo4<br>
+			Amer Street,colobo3<br> 
+			Sri Lanka<br>
+			</span>
+			
+			
+			
+		</div>
+	
+	</div>	
+</div>	
+	
+
+	
+	</footer>
+
+
+	
+            
+        <script src="script.js"></script>
+    </body>
+</html>

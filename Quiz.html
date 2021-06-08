@@ -1,0 +1,114 @@
+<DOCTYPE html>
+<html>
+
+<head>
+   
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	 <script src="quiz.js" async></script>
+    <title>Quiz</title>
+
+
+</head>
+
+<body id="quiz-body">
+	<header>											<!--header-->
+	
+	<div id="main">											
+	<nav>
+	<img src="trans.png" width="240" height="96">
+		<ul>
+			<li class="active"><a href="final.html">Home</a></li>		
+			<li><a href="tmuProducts.html">Products</a></li>
+			<li><a href="Quiz.html">Quiz</a></li>
+			<div class="dropdown">
+				<li a href ="#" class="dropbtn">More</li>
+					<div class="dropdown-content">
+						<a href="football.html">Football</a>
+						<a href="student1.html">Basketball</a>
+						<a href="swimming.html">Swimming</a>
+					</div>
+			</div>
+
+			<li><a href="Authorslast.html">Developers</a></li>
+		</ul>
+	</nav>	
+</header>
+	
+   
+	<div class="head">
+		<h1>Welcome to the Quiz</h1>
+	</div>
+	
+	
+    <div id="topic" style="margin-left:10%; margin-top:5%;">
+        <h2> You have 5 minutes to answer 10 questions </h2>
+        <p><h3> 2 marks for each correct answer and -1 marks for each wrong answer<h3> </p>
+        <button class="button button1"  onclick="questionProvider();setTimeout(timeOver, time*60*1000);timerCount();displayWatch();">Begin Test</button>
+    </div>   
+    <div id="timer">
+        <div>
+		
+			<h3>Timer : </h3>
+            <span class="minutes" id="min"></span>
+            <div class="text">Minutes</div>
+        </div>
+        <div>
+            <span class="seconds" id="sec"></span>
+            <div class="text">Seconds</div>
+        </div>
+    </div>
+	<div style="margin-left:20%;">
+    <div id="test_condition"></div>
+    <div id="test"></div>
+    <div id="answer"></div>
+    </div>
+	
+<footer> 					<!--footer-->															
+<div class="footer">
+	<div class="inner_footer">
+		<div class="logo_container">
+			<img src ="trans.png">
+		</div>
+		<div class="footer_third">
+			<h1>Need help?</h1>
+			<a href="#">Terms and conditions</a>
+			<a href="#">Privacy policy</a>
+		
+			
+		</div>
+		<div class="footer_third">
+			<h1>More</h1>
+			<a href="Authorslast.html">Explore</a>
+			<a href="Authorslast.html">Dilanka Wanigasekara</a>
+			<a href="Authorslast.html">Wehan Himsara Withana</a>
+			<a href="Authorslast.html">Ayesh Perera</a>
+			
+		</div>
+		<div class="footer_third">
+			<h1>Follow us</h1>
+			<li a href="#"><i class="fa fa-facebook"></i></a></li>
+			<li a href="#"><i class="fa fa-twitter"></i></a></li>
+			<li a href="#"><i class="fa fa-instagram"></i></a></li>
+			<li a href="#"><i class="fa fa-google"></i></a></li>
+			<li a href="#"><i class="fa fa-snapchat-ghost"></i></a></li>
+			<li a href="#"><i class="fa fa-yahoo"></i></a></li>
+			
+			<span>
+			TMU products<br><br>
+			The best place to get your sports items,<br>
+			Ramacrishna Road Colombo6,<br>
+			Baseline road, colombo4<br>
+			Amer Street,colobo3<br> 
+			Sri Lanka<br>
+			</span>
+			
+			
+			
+		</div>
+	
+	</div>	
+</div>	
+</footer>
+	</body>
+</html>

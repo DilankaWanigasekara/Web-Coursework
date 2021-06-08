@@ -1,0 +1,253 @@
+/* student 3 -Quiz*/
+	
+	/* header CSS*/
+nav{
+
+	width:100%;
+	height:100px;
+	background-color:#0007;
+	line-height:80px;
+}
+.footer{
+	width:100%;
+	height:60vh;
+	background-image:url(red.jpg);
+	background-size:cover;
+	display:block;
+	overflow:hidden;
+	padding: 100px 0;
+	box-sizing:border-box;}
+
+
+nav ul{float:right;
+font-family:verdana;
+}
+ nav ul li{
+	list-style-type:none;
+	display:inline-block;
+	
+}
+nav ul li:hover{
+	background-color:orange;
+	
+	transition:0.8s all;
+}
+ 
+ nav ul li a{text-decoration:none;
+	color:#fff;
+	padding:47px;
+}
+.dropbtn {
+  
+  color: white;
+  padding: 5px;
+  font-size: 21px;
+  
+  border: none;
+  cursor: pointer;
+  font-family:helatica;
+  
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:#fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 5px 5px;
+  text-decoration: none;
+  display: block;
+  font-family:verdana;
+}
+
+
+.dropdown-content a:hover {background-color:orange;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: orange;
+}		
+
+/*body CSS*/
+
+      #quiz-body {background-image:url('pic1.jpg');
+        
+       
+      
+      }
+     .head {
+          font-family: 'Courier New';
+          font-size: 40px;
+          color: orange;
+          text-align: center;
+      }
+      
+      div#topic {
+	  font-family:'fantasy';
+          opacity: 0.8;
+       
+          border-radius: 12px;
+          padding: 10px 40px 40px 40px;
+          background-color: lightblue;
+          width: 50%;
+          color:black;
+      }
+      
+      div#test {
+	
+          opacity: 0.8;
+          filter: alpha(opacity=10);
+          border-radius: 12px;
+          padding: 10px 40px 40px 40px;
+          background-color: lightblue;
+          width: 50%;
+          color: black;
+      }
+      
+      div#answer {
+          opacity: 0.8;
+          filter: alpha(opacity=10);
+          border-radius: 12px;
+          padding: 10px 40px 40px 40px;
+          background-color: #dbffdb;
+          width: 50%;
+          color: black;
+      }
+      div#test_condition {
+          color:black;
+          font-family: 'Sans- Serif';
+          font-size: 35px;
+		  font-weight:1000;
+          
+      }
+      
+      #timer {
+          position: absolute;
+        
+          right: 160px;
+          font-family: 'Orbitron', sans-serif;
+          color: white;
+          display: none;
+          font-weight: 300;
+          text-align: center;
+          font-size: 30px;
+          height:250px;
+          width:330px;
+
+         
+      }
+
+      
+      .button {
+          background-color:blue;
+          border: none;
+          color: white;
+          padding: 10px 20px;
+          text-align: center;
+          text-decoration: none;
+          font-size: 16px;
+          margin: 4px 2px;
+     	  border-radius:8px;
+          font-family: 'Special Elite', cursive;
+		  box-shadow:0 4px;
+		 
+		  
+      }
+	  .button:hover{background-color:red;}
+	  }
+/* footer*/
+
+.inner_footer{
+	display:block;
+	margin:0 auto;
+	width:500px;
+	height:100%;
+}
+
+.inner_footer{
+	display:block;
+	margin:0 auto;
+	width:1500px;
+	height:100%;
+}
+.inner_footer .logo_container{
+	width:30%;
+	float:left;
+	height:100%;
+	display:block;
+}
+.inner_footer .logo_container img{
+	width:300px;
+	height:150px;
+}
+.inner_footer .footer_third	{
+	width:calc(21.6666666666667%-20px);
+	margin-right:10px;
+	float:left;
+	height:100%;
+	
+	
+	
+	
+}
+	
+.inner_footer .footer_third:last-child{
+		margin-right:0;
+}
+.inner_footer .footer_third h1{
+	font-family:'arial';
+	font-size:22px;
+	color:white;
+	display:block;
+	width:100%;
+	margin-bottom:20px;
+	padding-right:40px;
+}
+.inner_footer .footer_third a{
+	font-family:'arial';
+	font-size:17px;
+	color:white;
+	display:block;
+	font-weight:200;
+	width:100%;
+	margin-bottom:30px;
+	padding-bottom:1px;
+	padding-right:43px;
+	margin-top:28px;
+}
+
+.inner_footer .footer_third	li{
+	display:inline-block;
+	padding:0 6px;
+	font-size:20px;
+	color:white;
+	}
+	
+.inner_footer .footer_third	span{
+	color:white;
+	font-family:'arial';
+	font-size:15px;
+	font-weight:10;
+	display:block;
+	width:100%;
+	padding-top:26px;
+	
+}
+
+		
